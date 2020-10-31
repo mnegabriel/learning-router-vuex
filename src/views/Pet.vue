@@ -1,7 +1,7 @@
 <template>
   <div class="pet">
-    <h1>{{ animal.name }}</h1>
-    <p>Age: {{ animal.age }}</p>
+    <h1>{{ animal.name }} ({{ $route.params.spieces}})</h1>
+    <p>Age: {{ animal.age }} years old</p>
     <p>Breed: {{ animal.breed }}</p>
   </div>
 </template>
